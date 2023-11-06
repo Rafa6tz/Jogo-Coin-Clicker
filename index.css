@@ -1,0 +1,54 @@
+/* https://paletadecores.com/paleta/482344/2b5166/429867/fab243/e02130/ */
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/dollar.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.container{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100vh;
+background: #482344;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.contador{
+font-size: large;
+color: white;
+}
+
+.circle{
+width: 200px;
+height: 200px;
+background: #fab243;
+border-radius: 50%;
+margin: 30px 30px;
+border: 12px solid darkgoldenrod;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+svg{
+    color: darkgoldenrod;
+    height: 120px;
+    width: 120px;
+}
+
+.loja{
+    width: 300px;
+    height: 100%;
+    background: #2b5166;
+    align-self: self-end;
+    position: absolute;
+}
+
